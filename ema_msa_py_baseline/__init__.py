@@ -1,0 +1,46 @@
+"""Locked dissertation-faithful baseline snapshot of the Python EMA_MSA replication."""
+
+from .data_structures import (
+    ComponentIntegrals,
+    CylinderComponent,
+    CylMeshSpec,
+    EigenResult,
+    HxrComponents,
+    HxrCylindricalComponent,
+    HxrRibComponent,
+    HxrToothComponent,
+    HxrWindingComponent,
+    ModeParams,
+    ModeResult,
+    ModeShapeResult,
+    MSComponent,
+    MSHeader,
+    NMFD,
+    PatchMesh,
+    PolyExpResult,
+    PolyExpTerm,
+)
+from .solver import calc_eigs, calculate_modes
+
+__all__ = [
+    "ComponentIntegrals",
+    "CylinderComponent",
+    "CylMeshSpec",
+    "EigenResult",
+    "HxrComponents",
+    "HxrCylindricalComponent",
+    "HxrRibComponent",
+    "HxrToothComponent",
+    "HxrWindingComponent",
+    "ModeParams",
+    "ModeResult",
+    "ModeShapeResult",
+    "MSComponent",
+    "MSHeader",
+    "NMFD",
+    "PatchMesh",
+    "PolyExpResult",
+    "PolyExpTerm",
+    "calc_eigs",
+    "calculate_modes",
+]
