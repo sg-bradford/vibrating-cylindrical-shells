@@ -1,0 +1,7 @@
+.DS_Store
+
+# by default, don't allow uploads of image files 
+# or other large files
+*.png
+*.pdf
+*.zip
